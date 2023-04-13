@@ -57,8 +57,8 @@ module "endpoints" {
   }
 
   tags = {
-    Owner       = "user"
-    Environment = "dev"
+    Owner       = "xx"
+    Environment = "xx"
   }
 }
 ```
