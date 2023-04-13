@@ -32,14 +32,14 @@ module "endpoints" {
       service         = "ecr.api"
       subnet_ids          = ["subnet-12345678", "subnet-87654321"]
       # service_type    = "Interface"
-      security_group_ids  = ["sg-04bd8230659cddc48"]
+      security_group_ids  = ["sg-98798798"]
       tags            = { Name = "ecr-vpc-endpoint" }
     },
     logs = {
       service         = "logs"
       subnet_ids          = ["subnet-12345678", "subnet-87654321"]
       # service_type    = "Interface"
-      security_group_ids  = ["sg-04bd8230659cddc48"]
+      security_group_ids  = ["sg-797987"]
       tags            = { Name = "ecr-vpc-endpoint" }
     }
     sns = {
